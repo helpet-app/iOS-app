@@ -1,0 +1,18 @@
+line_length:
+  ignores_comments: true
+  warning: 180
+
+identifier_name:
+  min_length:
+    warning: 2
+  allowed_symbols: [ '_' ]
+
+disabled_rules:
+  - unused_optional_binding
+  - large_tuple
+  - for_where
+
+excluded:
+  - HelpetTests
+  - HelpetUITests
+  - Pods
